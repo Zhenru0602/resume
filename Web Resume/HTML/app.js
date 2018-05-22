@@ -9,7 +9,7 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
-var port = Number(process.env.PORT ||3000);
+var port = Number(process.env.PORT ||3000 || 80);
 
 app.listen(port);
 
